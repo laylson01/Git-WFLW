@@ -1,10 +1,8 @@
-### GIT
-
-### Configurando seu Terminal Git
+### Configurando Git
 
 Após instalar o Git:
 
-1. **Faça com que o Git te conheça**
+1. **Introduza-se ao Git**
 
 Execute os seguintes comandos.
 
@@ -24,10 +22,9 @@ Execute os seguintes comandos.
 ```bash
 ssh-keygen -t rsa -b 2048 -C "email@example.com"
 ```
+*Não se esqueça de adaptar os exemplos para os seus dados.*
 
-Clique em Enter instantaneamente => Digite a paráfrase Duas vezes => Feito!
-
-Agora copie a chave pública usando este comando (Windows): // Ou podes ir pela interface gráfica a procura da pasta .ssh onde foi gerado a chave.
+Agora copie a chave pública usando este comando (Windows) ou *você também pode acessar a interface gráfica para encontrar a pasta .ssh onde a chave foi gerada.*
 
 ```bash
 cat ~/.ssh/id_ed25519.pub | clip
@@ -35,6 +32,8 @@ cat ~/.ssh/id_ed25519.pub | clip
 
 Perfeito, vá para o seu hospedeiro de repositório e cole a chave SSH, juntamente com um titulo da sua maneira
 
+
+### GIT HUB - https://github.com
 
 **No canto superior direito, vá no seu perfil e clique na opção:**
 

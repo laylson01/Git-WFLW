@@ -33,7 +33,7 @@ cat ~/.ssh/id_ed25519.pub | clip
 Perfeito, vá para o seu hospedeiro de repositório e cole a chave SSH, juntamente com um titulo da sua maneira
 
 
-### GIT HUB - https://github.com
+### GITHUB 
 
 **No canto superior direito, vá no seu perfil e clique na opção:**
 
@@ -71,6 +71,7 @@ ssh-keygen -o -t rsa -b 4096 -C "email@example.com"
 - `pwd`: Onde estou? Imprimir o diretório de trabalho.
 - `ls`: O que há na pasta atual?.
 - `touch <nome-do-arquivo>`: Criar um novo arquivo.
+- `rm`: remove arquivos/pastas.
 
 #### O que é Git
 
